@@ -1,0 +1,24 @@
+# Зависимости
+node_modules/
+
+# Артефакты тестов (появятся в следующих модулях)
+test-results/
+playwright-report/
+allure-results/
+allure-report/
+coverage/
+
+# Секреты и окружение
+.env
+.env.local
+
+# Системные файлы macOS
+.DS_Store
+
+# Логи
+*.log
+npm-debug.log*
+
+# Редактор
+.vscode/*
+!.vscode/extensions.json
